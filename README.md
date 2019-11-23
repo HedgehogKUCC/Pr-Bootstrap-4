@@ -1,6 +1,6 @@
 # 最終作業 - 甜點電商
 
-[gh-pages]()
+[gh-pages](https://hedgehogkucc.github.io/Pr-Bootstrap-4/)
 
 ## 修改 _variables.scss
 
