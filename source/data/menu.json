@@ -1,0 +1,16 @@
+{
+  "list": [
+    {
+      "name": "首頁",
+      "url": "index.html"
+    },
+    {
+      "name": "甜點",
+      "url": "products.html"
+    },
+    {
+      "name": "登入",
+      "url": "register.html"
+    }
+  ]
+}

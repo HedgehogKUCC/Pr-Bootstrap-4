@@ -1,0 +1,29 @@
+mixin link(url, name)
+  if(path === url)
+    li.nav-item.active
+      a.nav-link(href='#{ url }')
+        | #{ name }
+  else
+    li.nav-item
+      a.nav-link(href='#{ url }')
+        | #{ name }
+
+nav.navbar.navbar-expand-md.navbar-light.bg-white
+  .container
+    button.navbar-toggler.d-md-none.d-flex.align-items-center(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+      i.material-icons
+        | menu
+
+    a.navbar-brand(href='index.html')
+      img.d-none.d-md-inline-block(src='images/logo-all-dark.svg', width='220', height='40', alt='')
+      img.d-inline-block.d-md-none(src='images/logotype-sm-dark.svg', width='114', height='18', alt='')
+
+    
+    a.nav-link.d-flex.align-items-center.order-md-1(href='carts.html')
+      i.material-icons
+        | shopping_cart
+
+    #navbarSupportedContent.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        each item in menu.list
+          +link(item.url, item.name)
