@@ -94,7 +94,7 @@ gulp.task('s', function() {
       server: { baseDir: "./public" },
       reloadDebounce: 2000
   });
-  gulp.watch('./source/scss/**/*.scss', gulp.series('sass')).on('change', browserSync.reload);
+  gulp.watch('./source/scss/**/*.scss', gulp.series('sass'));
   gulp.watch('./source/**/*.js', gulp.series('babel'));
   gulp.watch('./source/**/*.jade', gulp.series('jade')).on('change', browserSync.reload);
 });
