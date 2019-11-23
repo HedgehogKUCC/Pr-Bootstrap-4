@@ -5,3 +5,7 @@
 ## 修改 _variables.scss
 
 `!default` 記得要拿掉不然會被後面覆蓋過去，因為權重很輕 !!!
+
+## 使用 block 傳遞 var
+
+[jade-pass-variables](https://stackoverflow.com/questions/12646451/how-to-pass-variables-between-jade-templates)
