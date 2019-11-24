@@ -2,6 +2,12 @@
 @import "helpers/variables";
 @import "bootstrap";
 
+// 區塊內容
+@import "components/header";
+
+// 元件
 @import "components/form-square";
 @import "components/custom-bs4";
+
+// 通用類別
 @import "components/utilities";

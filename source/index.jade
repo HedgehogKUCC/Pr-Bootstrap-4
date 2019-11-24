@@ -8,4 +8,22 @@ block navbar
 
 block content
 
-    h1 #{menu.list[0].name}
+    .container.px-0.px-md-3
+      header.header
+        .header-main-image.bg-cover(style='background-image: url(https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68ab0db4ee79bdce92722b31112b&auto=format&fit=crop&w=925&q=80)')
+        h1.text-hide 六角甜點工坊
+        .row.no-gutters.justify-content-center.rectangle-section
+          .col-md-10
+            .row.no-gutters
+              a.col-4.rectangle-image-wrap.active(href='#')
+                span.rectangle-text 本日精選
+                .four-sides.rectangle-over.zindex--1
+                .rectangle-image.bg-cover(style='background-image: url(https://images.unsplash.com/photo-1504473089979-b1c4993a9653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9db69b72e1f7d1b4e5c81cee531108ff&auto=format&fit=crop&w=634&q=80)')
+              a.col-4.rectangle-image-wrap(href='#')
+                span.rectangle-text 人氣推薦
+                .four-sides.rectangle-over.zindex--1
+                .rectangle-image.bg-cover(style='background-image: url(https://images.unsplash.com/photo-1525059337994-6f2a1311b4d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ce5bbf66bdb4ed3b6965f0b3618aa43&auto=format&fit=crop&w=654&q=80)')
+              a.col-4.rectangle-image-wrap(href='#')
+                span.rectangle-text 新品上市
+                .four-sides.rectangle-over.zindex--1
+                .rectangle-image.bg-cover(style='background-image: url(https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73ed228f25bdefd2291c242f6d390fca&auto=format&fit=crop&w=634&q=80)')
