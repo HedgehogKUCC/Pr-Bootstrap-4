@@ -26,8 +26,8 @@
 .writing-vertical {
   writing-mode: vertical-rl;
 }
-.writing-md-vertical {
-  @include media-breakpoint-up(md) {
+.writing-lg-vertical {
+  @include media-breakpoint-up(lg) {
     writing-mode: vertical-rl;
   }
 }
